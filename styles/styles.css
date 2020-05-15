@@ -65,6 +65,18 @@ a.nav-link {
     border-color: #FF784F;
 }
 
+.btn-secondary {
+    color: #2C4251;
+    background-color: #FF784F;
+    border-color: #FF784F;
+}
+
+.btn-secondary:hover {
+    color: #FFFFFF;
+    background-color: #2C4251;
+    border-color: #2C4251;
+}
+
 /* Spacer */
 
 .spacer {
