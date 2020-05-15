@@ -89,7 +89,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Demo Project</h5>
                   <p class="card-text">This is a placeholder project to make the grid bigger.</p>
-                  <a href="" class="btn btn-primary">Demo button</a>
+                  <a href="" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="This is only a demo button, so it doesn't work. Feel free to check out one of the first three projects on this page!">Demo button</a>
                 </div>
               </div>
         </div>
@@ -101,7 +101,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Demo Project</h5>
                   <p class="card-text">This is another placeholder project.</p>
-                  <a href="" class="btn btn-primary">Demo button</a>
+                  <a href="" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="This is only a demo button, so it doesn't work. Feel free to check out one of the first three projects on this page!">Demo button</a>
                 </div>
               </div>
         </div>
@@ -111,7 +111,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Demo Project</h5>
                   <p class="card-text">This is a placeholder project to make the grid bigger.</p>
-                  <a href="" class="btn btn-primary">Demo button</a>
+                  <a href="" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="This is only a demo button, so it doesn't work. Feel free to check out one of the first three projects on this page!">Demo button</a>
                 </div>
               </div>
         </div>
@@ -129,6 +129,14 @@
         Built by Marcel Thiemann in Toronto &copy; 2020
     </div>
 </footer>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip({
+        container: 'body'
+    })
+    })
+</script>
 
 </body>
 </html>
