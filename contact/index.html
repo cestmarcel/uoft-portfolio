@@ -24,7 +24,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div role="navigation-items" class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="../">Home <span class="sr-only">(current)</span></a>
@@ -41,44 +41,46 @@
 
 <!-- Hero stage -->
 
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
+<header class="jumbotron jumbotron-fluid">
+    <section class="container">
       <h1 class="display-4">Contact me</h1>
       <p class="lead">If you'd like to collaborate or have a question about one of my projects, please get in touch with me by using the form below.</p>
-    </div>
-  </div>
+    </section>
+</header>
 
 <!-- Contact form -->
 
-<div class="container">
+<main class="container">
     <form>
-        <div class="form-group">
+        <section class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
+        </section>
+        <section class="form-group">
             <label for="exampleFormControlInput2">Your name</label>
             <input type="name" class="form-control" id="exampleFormControlInput2" placeholder="Firstname Lastname">
-        </div>
-        <div class="form-group">
+        </section>
+        <section class="form-group">
             <label for="exampleFormControlTextarea1">Your message</label>
             <textarea class="form-control" id="exampleFormControlMessage" rows="3"></textarea>
-          </div>
+          </section>
       </form>
       <button type="submit" class="btn btn-primary" data-toggle="popover" title="CAUTION" data-content="This is only a demo form, your message will not be sent.">Submit</button>
-</div>
+    </main>
 
 <!-- Spacer -->
 
-<div class="spacer"></div>
+<section class="spacer"></section>
 
 <!-- Footer -->
 
 <footer>
-    <div class="alert alert-primary" role="alert">
+    <section class="alert alert-primary" role="alert">
         Built by Marcel Thiemann in Toronto &copy; 2020
-    </div>
+    </section>
 </footer>
+
+<!-- Script to enable popover functionality -->
 
 <script>
     $(function () {
