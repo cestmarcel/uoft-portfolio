@@ -7,7 +7,7 @@ The task was to create a digital portfolio consisting of a homepage/about page, 
 
 ### 2. Site features
 
-The page features a consistent navbar, a responsive layout built with Bootstrap, and responsive images. It is fully responsive and leverages Bootstrap's grid system. The CSS does not require any media queries.
+The page features a consistent navbar, a responsive layout built with Bootstrap, and responsive images. It is fully responsive and leverages Bootstrap's grid system. The site also features a sticky footer on every page. The CSS does not require any media queries.
 
 #### 2.1 The homepage
 
