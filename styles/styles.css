@@ -24,6 +24,11 @@
     font-weight: 500;
 }
 
+.navbar-brand:hover {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
 .nav-item {
     color: white;
 }
