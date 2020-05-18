@@ -5,6 +5,8 @@
 
 The task was to create a digital portfolio consisting of a homepage/about page, a portfolio page, and a contact page. I created these three pages and completed them with my personal info.
 
+The project can be accessed under: https://marcelthiemann.com/uoft-portfolio
+
 ### 2. Site features
 
 The page features a consistent navbar, a responsive layout built with Bootstrap, and responsive images. It is fully responsive and leverages Bootstrap's grid system. The site also features a sticky footer on every page. The CSS does not require any media queries.
