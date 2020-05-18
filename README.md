@@ -15,6 +15,8 @@ The page features a consistent navbar, a responsive layout built with Bootstrap,
 
 The homepage serves as the about page and features a header with a headline and intro as well as a bio-part with a portrait as well as a short profile. There are also buttons to get to the portfolio page as well as the contact page and a dropdown menu features links to my online profiles. These links open in new tabs for the user's convenience.
 
+![Screenshot of the homepage](https://github.com/cestmarcel/uoft-portfolio/blob/master/assets/screenshots/homepage.png)
+
 #### 2.2 The portfolio page
 
 The portfolio features a header with a short intro as well as a grid of six cards that each summarize a digital project I've done. They feature responsive images, a short description text, and a link to get to the respective website.
@@ -23,9 +25,13 @@ There are three actual projects and three demo projects. For the demo projects, 
 
 The grid is optimized for mobile phones. On desktop, the user sees a 2x3 grid, whereas on smaller screens the projects will be displayed underneath each other.
 
+![Screenshot of the portfolio page](http://url/to/img.png)
+
 #### 2.3 The contact page
 
 The contact page features a header with a short intro as well as a dummy-form to submit a message. The form constists of three fields to enter an email address, a name, and a message. I've added a popover to the submit-button to let the user know that this is only a dummy-form and that they cannot actually submit a message.
+
+![Screenshot of the contact page](http://url/to/img.png)
 
 ### 3. Challenges
 
