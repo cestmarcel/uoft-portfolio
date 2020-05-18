@@ -1,11 +1,11 @@
 # UofT Coding - Homework Assignment no. 2 
-## Responsive portfolio page built with Bootstrap | May 21, 2020
+## Responsive portfolio page built with Bootstrap | May 18, 2020
 
 ### 1. The task
 
 The task was to create a digital portfolio consisting of a homepage/about page, a portfolio page, and a contact page. I created these three pages and completed them with my personal info.
 
-The project can be accessed under: https://marcelthiemann.com/uoft-portfolio
+The project is available under: https://marcelthiemann.com/uoft-portfolio
 
 ### 2. Site features
 
@@ -25,13 +25,13 @@ There are three actual projects and three demo projects. For the demo projects, 
 
 The grid is optimized for mobile phones. On desktop, the user sees a 2x3 grid, whereas on smaller screens the projects will be displayed underneath each other.
 
-![Screenshot of the portfolio page](http://url/to/img.png)
+![Screenshot of the portfolio page](https://github.com/cestmarcel/uoft-portfolio/blob/master/assets/screenshots/portfolio.png)
 
 #### 2.3 The contact page
 
 The contact page features a header with a short intro as well as a dummy-form to submit a message. The form constists of three fields to enter an email address, a name, and a message. I've added a popover to the submit-button to let the user know that this is only a dummy-form and that they cannot actually submit a message.
 
-![Screenshot of the contact page](http://url/to/img.png)
+![Screenshot of the contact page](https://github.com/cestmarcel/uoft-portfolio/blob/master/assets/screenshots/contact.png)
 
 ### 3. Challenges
 
