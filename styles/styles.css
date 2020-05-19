@@ -45,6 +45,10 @@ a.nav-link {
     background-position: center;
 }
 
+.detail-lead {
+    width: 60%;
+}
+
 /* Bio styles */
 
 .media img {
@@ -99,4 +103,14 @@ footer {
     height: 30px;
     width: 100%;
     opacity: 60%;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+
+    .detail-lead {
+        width: 100%;
+    }
+
 }
