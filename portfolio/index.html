@@ -7,8 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -16,7 +16,6 @@
 <body class="rubik">
 
 <!-- Navbar -->
-
 <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="../">
     Marcel Thiemann
@@ -33,6 +32,9 @@
             <a class="nav-link" href="./">Portfolio</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="../assets/documents/cv.pdf">CV</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="../contact">Contact</a>
         </li>
         </ul>
@@ -40,7 +42,6 @@
   </nav>
 
 <!-- Hero stage -->
-
 <header class="jumbotron jumbotron-fluid">
     <section class="container">
       <h1 class="display-4">My portfolio</h1>
@@ -48,84 +49,91 @@
     </section>
 </header>
 
-<!-- Project Grid -->
-
-<main class="container">
+<!-- Featured projects -->
+<div class="description-end"></div>
+  <div class="container">
+    <h2>Featured projects</h1>
+      <div class="row">
+        <div class="col-sm-6 mb-3">
+          <div class="card" style="width: 100%;">
+            <img src="../assets/img/quiz-compressed.gif" class="card-img-top" alt="Bootstrap Portfolio">
+            <div class="card-body">
+              <h5 class="card-title">JavaScript Quiz <span class="badge badge-secondary">U of T</span></h5>
+              <p class="card-text">A quiz about JavaScript basics written in JavaScript.</p>
+              <a href="https://marcelthiemann.com/uoft-quiz" target="_blank" class="btn btn-primary mt-2">View project</a>
+              <a href="https://github.com/cestmarcel/uoft-quiz" target="_blank" class="btn btn-primary mt-2">View Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 mb-3">
+          <div class="card" style="width: 100%;">
+            <img src="../assets/img/weather.png" class="card-img-top" alt="Bootstrap Portfolio">
+            <div class="card-body">
+              <h5 class="card-title">Weather dashboard <span class="badge badge-secondary">U of T</span></h5>
+              <p class="card-text">A weather app for basic weather info and forecast.</p>
+              <a href="https://marcelthiemann.com/uoft-weather" target="_blank" class="btn btn-primary mt-2">View Project</a>
+              <a href="https://github.com/cestmarcel/uoft-weather" target="_blank" class="btn btn-primary mt-2">View Github</a>
+            </div>
+          </div>
+        </div>
+<!-- Project selector -->
+  <div class="container">
+    <div class="description-end"></div>
+    <h3 class="mt-5">All projects</h3>
     <div class="row">
-      <div class="col-sm mb-4">
-        <figure class="card" style="width: 100%;">
-            <img src="../assets/img/project1.jpg" class="card-img-top" alt="...">
-            <figcaption class="card-body">
-              <h5 class="card-title">Personal website</h5>
-              <p class="card-text">My personal website was the first project I worked on. Check it out!</p>
-              <a href="http://marcelthiemann.com" target=_blank class="btn btn-primary">Visit marcelthiemann.com</a>
-            </figcaption>
-        </figure>
+      <div class="col-sm-4 mb-3">
+        <div class="card" style="width: 100%;">
+          <img src="../assets/img/marcelthiemann.png" class="card-img-top" alt="Bootstrap Portfolio">
+          <div class="card-body">
+            <h5 class="card-title">Personal website <span class="badge badge-secondary">Own project</span></h5>
+            <p class="card-text">My personal website was the first project I worked on.</p>
+            <a href="https://marcelthiemann.com" target="_blank" class="btn btn-primary mt-2">View Project</a>
+            <a href="https://github.com/cestmarcel/cestmarcel.github.io" target="_blank" class="btn btn-primary mt-2">View Github</a>
+          </div>
+        </div>
       </div>
-      <div class="col-sm mb-4">
-        <figure class="card" style="width: 100%;">
-            <img src="../assets/img/project2.jpg" class="card-img-top" alt="...">
-            <figcaption class="card-body">
-              <h5 class="card-title">Bootstrap portfolio</h5>
-              <p class="card-text">For my coding class I built a digital portfolio using Bootstrap.</p>
-              <a href="http://marcelthiemann.com/uoft-portfolio" target=_blank class="btn btn-primary">View project</a>
-            </figcaption>
-        </figure>
+      <div class="col-sm-4 mb-3">
+        <div class="card" style="width: 100%;">
+          <img src="../assets/img/password.png" class="card-img-top" alt="Password Generator">
+          <div class="card-body">
+            <h5 class="card-title">Password generator <span class="badge badge-secondary">U of T</span></h5>
+            <p class="card-text">A simple password generator written in JavaScript to generate a secure password.</p>
+            <a href="https://marcelthiemann.com/uoft-password-generator" target="_blank" class="btn btn-primary mt-2">View project</a>
+            <a href="https://github.com/cestmarcel/uoft-password-generator" target="_blank" class="btn btn-primary mt-2">View Github</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3">
+        <div class="card" style="width: 100%;">
+          <img src="../assets/img/planner.png" class="card-img-top" alt="Daily Planner">
+          <div class="card-body">
+            <h5 class="card-title">Daily planner <span class="badge badge-secondary">U of T</span></h5>
+            <p class="card-text">A simple daily schedule planner written in JavaScript.</p>
+            <a href="https://marcelthiemann.com/uoft-planner" target="_blank" class="btn btn-primary mt-2">View Project</a>
+            <a href="https://github.com/cestmarcel/uoft-planner" target="_blank" class="btn btn-primary mt-2">View Github</a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
-        <div class="col-sm mb-4">
-            <figure class="card" style="width: 100%;">
-                <img src="../assets/img/project3.jpg" class="card-img-top" alt="...">
-                <figcaption class="card-body">
-                  <h5 class="card-title">Online game</h5>
-                  <p class="card-text">To practice thinking like a coder, I built an online game using Scratch.</p>
-                  <a href="https://scratch.mit.edu/projects/388312320" target=_blank class="btn btn-primary">Play the game</a>
-                </figcaption>
-            </figure>
-        </div>
-        <!-- The following 3 cards/figures are only dummies. Their buttons feature tooltips to let the user know that they are only dummy-buttons. -->
-        <div class="col-sm mb-4">
-            <figure class="card" style="width: 100%;">
-                <img src="../assets/img/project4.jpg" class="card-img-top" alt="...">
-                <figcaption class="card-body">
-                  <h5 class="card-title">Demo Project</h5>
-                  <p class="card-text">This is a placeholder project to make the grid bigger.</p>
-                  <a href="" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="This is only a demo button, so it doesn't work. Feel free to check out one of the first three projects on this page!">Demo button</a>
-                </figcaption>
-            </figure>
+      <div class="col-sm-4 mb-3">
+        <div class="card" style="width: 100%;">
+          <img src="../assets/img/portfolio.png" class="card-img-top" alt="Bootstrap Portfolio">
+          <div class="card-body">
+            <h5 class="card-title">Bootstrap portfolio <span class="badge badge-secondary">U of T</span></h5>
+            <p class="card-text">A portfolio page built with Bootstrap.</p>
+            <a href="https://marcelthiemann.com/uoft-portfolio" target="_blank" class="btn btn-primary mt-2">View Project</a>
+            <a href="https://github.com/cestmarcel/uoft-portfolio" target="_blank" class="btn btn-primary mt-2">View Github</a>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm mb-4">
-            <figure class="card" style="width: 100%;">
-                <img src="../assets/img/project5.jpg" class="card-img-top" alt="...">
-                <figcaption class="card-body">
-                  <h5 class="card-title">Demo Project</h5>
-                  <p class="card-text">This is another placeholder project.</p>
-                  <a href="" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="This is only a demo button, so it doesn't work. Feel free to check out one of the first three projects on this page!">Demo button</a>
-                </figcaption>
-            </figure>
-        </div>
-        <div class="col-sm mb-4">
-            <figure class="card" style="width: 100%;">
-                <img src="../assets/img/project6.jpg" class="card-img-top" alt="...">
-                <figcaption class="card-body">
-                  <h5 class="card-title">Demo Project</h5>
-                  <p class="card-text">This is a placeholder project to make the grid bigger.</p>
-                  <a href="" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="This is only a demo button, so it doesn't work. Feel free to check out one of the first three projects on this page!">Demo button</a>
-                </figcaption>
-            </figure>
-        </div>
-      </div>
-    </main>
+    </div>
+  </div>
 
 <!-- Spacer -->
-
 <section class="spacer"></section>
 
 <!-- Footer -->
-
 <footer>
     <section class="alert alert-primary" role="alert">
         Built by Marcel Thiemann in Toronto &copy; 2020
@@ -133,7 +141,6 @@
 </footer>
 
 <!-- Script to enable tooltip functionality -->
-
 <script>
     $(function () {
         $('[data-toggle="tooltip"]').tooltip({
