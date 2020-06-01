@@ -43,3 +43,7 @@ The contact page features a header with a short intro as well as a dummy-form to
 - Adjusting Bootstrap designs
 - Using Bootstrap components that require Javascript
 - Semantic html: How to use the role-attribute for otherwise undescriptive div-tags
+
+### 5. External APIs, libraries, and frameworks
+
+This application uses Bootstrap, utilizing responsive Styles and components. More information about Bootstrap is available under https://getbootstrap.com with documentation under https://getbootstrap.com/docs/4.5/getting-started/introduction/
